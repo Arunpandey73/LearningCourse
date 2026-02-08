@@ -23,6 +23,7 @@ export default defineConfig([
       },
     },
     rules: {
+      'simple-import-sort/imports':'error',
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
